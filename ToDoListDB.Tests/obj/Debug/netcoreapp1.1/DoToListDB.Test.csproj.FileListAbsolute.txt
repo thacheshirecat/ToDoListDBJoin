@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/DoToListDB.Test.deps.json
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/DoToListDB.Test.runtimeconfig.json
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/DoToListDB.Test.runtimeconfig.dev.json
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/obj/Debug/netcoreapp1.1/DoToListDB.Test.AssemblyInfo.cs
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/DoToListDB.Test.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/DoToListDB.Test.pdb
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/ToDoListDB.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/ToDoListDB.pdb
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/obj/Debug/netcoreapp1.1/DoToListDB.Test.dll
+/Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/obj/Debug/netcoreapp1.1/DoToListDB.Test.pdb
