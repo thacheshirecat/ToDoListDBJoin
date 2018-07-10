@@ -11,5 +11,12 @@ namespace ToDoList.Controllers
     {
       return View();
     }
+
+    [HttpGet("/Items/Search")]
+    public ActionResult Search()
+    {
+        return View("Index");
+    }
+
   }
 }
