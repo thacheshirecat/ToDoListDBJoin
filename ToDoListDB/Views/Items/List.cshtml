@@ -1,3 +1,5 @@
+@using ToDoList.Models;
+
 <head>
     <title>To Do List</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
@@ -5,7 +7,7 @@
 <h1>To Do:</h1>
 @foreach(var item in Model)
 {
-  <li>@item.GetDescription() | <a href="/Items/@item.GetId()/Update">Edit</a></li>
+  <li>@item.GetDescription() | Category: @Category.Find(@item.GetCategoryId()).GetName() | <a href="/Items/@item.GetId()/Update">Edit</a></li>
 }
 <br>
 <a href="/Items/Delete">Delete All Items</a><br>

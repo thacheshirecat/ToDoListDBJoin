@@ -20,9 +20,9 @@ namespace ToDoList.Controllers
     }
 
     [HttpPost("/Items/List")]
-    public ActionResult List(string newdescription)
+    public ActionResult List(string newdescription, int newcategory)
     {
-      Item newItem = new Item(newdescription, 1);
+      Item newItem = new Item(newdescription, newcategory);
       newItem.Save();
       List<Item> allItems = Item.GetAll();
       return View(allItems);
@@ -36,10 +36,10 @@ namespace ToDoList.Controllers
     }
 
     [HttpPost("/Items/{id}/Update")]
-    public ActionResult Update(int id)
+    public ActionResult Update(int id, string newname, int newcategory)
     {
       Item thisItem = Item.Find(id);
-      thisItem.Edit(Request.Form["newname"], 1);
+      thisItem.Edit(newname, newcategory);
       return RedirectToAction("Index");
     }
 
@@ -54,7 +54,7 @@ namespace ToDoList.Controllers
     [HttpGet("/Items/CreateForm")]
     public ActionResult CreateForm()
     {
-      return View();
+      return View(Category.GetAll());
     }
 
     [HttpGet("/Items/Search")]

@@ -1,0 +1,14 @@
+<head>
+    <title>To Do List</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+  <h1>List of Categories</h1>
+<ul>
+  @foreach(var category in Model)
+  {
+    <li>@category.GetName()</li>
+  }
+</ul>
+<a href="/Categories/CreateForm">Add New Category</a>
+<a href="/Items">Home</a>

@@ -7,6 +7,13 @@
   <label for="newdescription">New Item</label>
   <input name="newdescription" id="newdescription" type="text" class="form-control">
   <label for="newcategory">Catagory</label>
-  <input name="newcategory" id="newcategory" type="text" class="form-control">
+
+  <select class="" name="newcategory">
+    @foreach(var thisCategory in Model)
+    {
+      <option value="@thisCategory.GetId()">@thisCategory.GetName()</option>
+    }
+  </select>
+
   <button type="submit" class="btn btn-success">Add!</button>
 </form>

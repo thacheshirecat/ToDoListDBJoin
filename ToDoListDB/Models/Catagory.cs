@@ -52,6 +52,7 @@ namespace ToDoList.Models
           cmd.Parameters.Add(name);
 
           cmd.ExecuteNonQuery();
+
           _id = (int) cmd.LastInsertedId;
           conn.Close();
           if (conn != null)
@@ -59,6 +60,9 @@ namespace ToDoList.Models
               conn.Dispose();
           }
         }
+
+
+
         public static List<Category> GetAll()
         {
             List<Category> allCategories = new List<Category> {};
@@ -110,6 +114,26 @@ namespace ToDoList.Models
           }
           return newCategory;
         }
+        //WORK IN PROGRESS for seach functionality
+        // public static List<Category> Search(int id)
+        // {
+        //   MySqlConnection conn = DB.Connection();
+        //   conn.Open();
+        //
+        //   var cmd = conn.CreateCommand() as MySqlCommand;
+        //   cmd.CommandText = @"SELECT * FROM items WHERE catagory_id = @catid;";
+        //
+        //   MySqlParameter catid = new MySqlParameter();
+        //   catid.ParameterName = "@catid";
+        //   catid.Value = id;
+        //   cmd.Parameters.Add(catid);
+        //
+        //   conn.Close();
+        //   if (conn != null)
+        //   {
+        //       conn.Dispose();
+        //   }
+        // }
 
         public static void DeleteAll()
         {
