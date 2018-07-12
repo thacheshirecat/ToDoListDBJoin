@@ -1,14 +1,31 @@
 <head>
     <title>To Do List</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
 </head>
+<body>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2">
+        <br>
+      <form action="/Categories/CreateForm">
+        <button type="click" class="btn btn-success">Add</button>
+      </form>
+      <form action="/Items">
+        <button type="click" class="btn btn-warning">Back</button>
+      </form>
+      <form action="/Categories/Delete">
+        <button type="click" class="btn btn-danger">Delete All</button>
+      </form>
+    </div>
 
-  <h1>List of Categories</h1>
-<ul>
-  @foreach(var category in Model)
-  {
-    <li>@category.GetName()</li>
-  }
-</ul>
-<a href="/Categories/CreateForm">Add New Category</a>
-<a href="/Items">Home</a>
+    <h1>.:List of Categories:.</h1>
+    <ul>
+      @foreach(var category in Model)
+      {
+        <li>@category.GetName()</li>
+      }
+    </ul>
+  </div>
+</body>

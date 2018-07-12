@@ -26,5 +26,12 @@ namespace ToDoList.Controllers
       newCat.Save();
       return View("Index", Category.GetAll());
     }
+
+    [HttpGet("/Categories/Delete")]
+    public ActionResult Delete()
+    {
+      Category.DeleteAll();
+      return View("Index", Category.GetAll());
+    }
   }
 }

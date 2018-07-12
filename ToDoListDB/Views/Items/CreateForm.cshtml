@@ -1,14 +1,15 @@
 <head>
     <title>To Do List</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Add New Item</h1>
+    <h1>.:Add New Item:.</h1>
     <form action="/Items/New" method="post">
       <label for="newdescription">New Item</label>
       <input name="newdescription" id="newdescription" type="text" class="form-control">
+
       <label for="newcategory">Set Catagory</label>
       <select name="newcategory">
         @foreach(var thisCategory in Model)
@@ -16,10 +17,9 @@
           <option value="@thisCategory.GetId()">@thisCategory.GetName()</option>
         }
       </select>
-
+      <br>
       <button type="click" class="btn btn-success">Add!</button>
     </form>
-    <br>
     <form action="/Items/List">
       <button type="click" class="btn btn-warning">Back</button>
     </form>

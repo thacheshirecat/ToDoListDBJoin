@@ -3,20 +3,25 @@
 <head>
     <title>To Do List</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
 </head>
-<h2>Edit category: @Model.GetDescription()</h2>
-<form action="/Items/@Model.GetId()/Update" method="post">
-    <label for="newname">Name:</label>
-    <input type="text" name="newname" value="@Model.GetDescription()">
-    <label for="newcategory">Change Category</label>
-    <select class="" name="newcategory">
-      @foreach(var thisCategory in Category.GetAll())
-      {
-        <option value="@thisCategory.GetId()">@thisCategory.GetName()</option>
-      }
-    </select>
+<body>
+  <div class="container">
+    <h2>Edit category: @Model.GetDescription()</h2>
+    <form action="/Items/@Model.GetId()/Update" method="post">
+        <label for="newname">Name:</label>
+        <input type="text" name="newname" value="@Model.GetDescription()">
+        <label for="newcategory">Change Category</label>
+        <select class="" name="newcategory">
+          @foreach(var thisCategory in Category.GetAll())
+          {
+            <option value="@thisCategory.GetId()">@thisCategory.GetName()</option>
+          }
+        </select>
 
-    <button type="submit">Edit</button>
-</form>
-<h4><a href="/Items/@Model.GetId()/delete">Delete Item</a></h4>
-<h4><a href="/Items">Return home</a></h4>
+        <button type="submit">Edit</button>
+    </form>
+    <h4><a href="/Items/@Model.GetId()/delete">Delete Item</a></h4>
+    <h4><a href="/Items/List">Back</a></h4>
+  </div>
+</body>
