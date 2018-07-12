@@ -6,3 +6,12 @@
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB/bin/Debug/netcoreapp1.1/ToDoListDB.pdb
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB/obj/Debug/netcoreapp1.1/ToDoListDB.dll
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB/obj/Debug/netcoreapp1.1/ToDoListDB.pdb
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\bin\Debug\netcoreapp1.1\ToDoListDB.deps.json
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\bin\Debug\netcoreapp1.1\ToDoListDB.runtimeconfig.json
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\bin\Debug\netcoreapp1.1\ToDoListDB.runtimeconfig.dev.json
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\bin\Debug\netcoreapp1.1\ToDoListDB.dll
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\bin\Debug\netcoreapp1.1\ToDoListDB.pdb
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\obj\Debug\netcoreapp1.1\ToDoListDB.csproj.CoreCompileInputs.cache
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\obj\Debug\netcoreapp1.1\ToDoListDB.AssemblyInfo.cs
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\obj\Debug\netcoreapp1.1\ToDoListDB.dll
+C:\Users\Cheshire Cat\Desktop\Coding\C#\ToDoListDB.Solution\ToDoListDB\obj\Debug\netcoreapp1.1\ToDoListDB.pdb

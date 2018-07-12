@@ -19,13 +19,19 @@ namespace ToDoList.Controllers
       return View(allItems);
     }
 
-    [HttpPost("/Items/List")]
-    public ActionResult List(string newdescription, int newcategory)
+    [HttpGet("/Items/CreateForm")]
+    public ActionResult CreateForm()
+    {
+      return View(Category.GetAll());
+    }
+
+    [HttpPost("/Items/New")]
+    public ActionResult AddNewItem(string newdescription, int newcategory)
     {
       Item newItem = new Item(newdescription, newcategory);
       newItem.Save();
       List<Item> allItems = Item.GetAll();
-      return View(allItems);
+      return View("List", allItems);
     }
 
     [HttpGet("/items/{id}/update")]
@@ -51,11 +57,7 @@ namespace ToDoList.Controllers
       return View("List", allItems);
     }
 
-    [HttpGet("/Items/CreateForm")]
-    public ActionResult CreateForm()
-    {
-      return View(Category.GetAll());
-    }
+
 
     [HttpGet("/Items/Search")]
     public ActionResult Search()

@@ -3,12 +3,29 @@
 <head>
     <title>To Do List</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
-<h1>To Do:</h1>
-@foreach(var item in Model)
-{
-  <li>@item.GetDescription() | Category: @Category.Find(@item.GetCategoryId()).GetName() | <a href="/Items/@item.GetId()/Update">Edit</a></li>
-}
-<br>
-<a href="/Items/Delete">Delete All Items</a><br>
-<a href="/Items">Back</a>
+<body>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2">
+        <br>
+      <form action="/Items/CreateForm">
+        <button type="click" class="btn btn-success">Add</button>
+      </form>
+      <form action="/Items">
+        <button type="click" class="btn btn-warning">Back</button>
+      </form>
+      <form action="/Items/Delete">
+        <button type="click" class="btn btn-danger">Delete All</button>
+      </form>
+    </div>
+
+    <h1>.:To Do:.</h1>
+    @foreach(var item in Model)
+    {
+      <li>@item.GetDescription() | Category: @Category.Find(@item.GetCategoryId()).GetName() | <a href="/Items/@item.GetId()/Update">Edit</a></li>
+    }
+  </div>
+</body>
