@@ -66,10 +66,10 @@ namespace ToDoList.Controllers
     }
 
     [HttpPost("/Items/{id}/Update")]
-    public ActionResult Update(int id, string newname, int newcategory)
+    public ActionResult Update(int id, string newname)
     {
       Item thisItem = Item.Find(id);
-      thisItem.Edit(newname, newcategory);
+      thisItem.Edit(newname);
       return View("List", Item.GetAll());
     }
 

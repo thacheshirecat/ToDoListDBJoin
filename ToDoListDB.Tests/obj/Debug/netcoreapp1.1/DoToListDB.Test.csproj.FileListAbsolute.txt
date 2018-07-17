@@ -11,3 +11,17 @@
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/bin/Debug/netcoreapp1.1/ToDoListDB.pdb
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/obj/Debug/netcoreapp1.1/DoToListDB.Test.dll
 /Users/Guest/Desktop/ToDoListDB.Solution/ToDoListDB.Tests/obj/Debug/netcoreapp1.1/DoToListDB.Test.pdb
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\DoToListDB.Test.deps.json
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\DoToListDB.Test.runtimeconfig.json
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\DoToListDB.Test.runtimeconfig.dev.json
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\DoToListDB.Test.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\DoToListDB.Test.pdb
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\ToDoListDB.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\bin\Debug\netcoreapp1.1\ToDoListDB.pdb
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\obj\Debug\netcoreapp1.1\DoToListDB.Test.csproj.CoreCompileInputs.cache
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\obj\Debug\netcoreapp1.1\DoToListDB.Test.AssemblyInfo.cs
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\obj\Debug\netcoreapp1.1\DoToListDB.Test.dll
+C:\Users\Cheshire Cat\Desktop\coding\C#\ToDoListDB.Solution\ToDoListDB.Tests\obj\Debug\netcoreapp1.1\DoToListDB.Test.pdb
